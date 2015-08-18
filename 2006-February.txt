@@ -1,0 +1,34 @@
+From nobody at sheep.berlios.de  Tue Feb 14 00:43:17 2006
+From: nobody at sheep.berlios.de (jitseniesen)
+Date: Tue, 14 Feb 2006 00:43:17 +0100
+Subject: [Blahtex-devel] blahtex/includes Math.php,1.22,1.23
+Message-ID: <200602132343.k1DNhHE02753@bat.berlios.de>
+
+Update of /cvsroot/blahtex/blahtex/includes
+In directory sheep:/tmp/cvs-serv31130
+
+Modified Files:
+	Math.php 
+Log Message:
+Another change in comment to test CVS notifications.
+
+
+Index: Math.php
+===================================================================
+RCS file: /cvsroot/blahtex/blahtex/includes/Math.php,v
+retrieving revision 1.22
+retrieving revision 1.23
+diff -C2 -d -r1.22 -r1.23
+*** Math.php	13 Feb 2006 23:40:14 -0000	1.22
+--- Math.php	13 Feb 2006 23:43:15 -0000	1.23
+***************
+*** 313,316 ****
+--- 313,317 ----
+  	 * Process blahtex output and update the mathml and png fields.
+  	 * Returns an error message, or false if no error occurred.
++ 	 * Bug: assumes that mathml and png errors have no arguments.
+  	 */
+  	function processBlahtexOutput($results)
+
+
+
